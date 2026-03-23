@@ -20,7 +20,4 @@ adapter.inspect();
 \`\`\`
 "@ | Out-File -FilePath README.md -Encoding utf8
 
-# Now, Push the update to GitHub
-git add README.md
-git commit -m "docs: expand README with enterprise cheatsheet and usage"
-git push
+
