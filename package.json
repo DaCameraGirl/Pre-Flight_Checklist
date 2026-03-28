@@ -1,0 +1,23 @@
+{
+  "name": "@dacameragirl/pre-flight-checklist",
+  "version": "0.1.0",
+  "description": "Enterprise-grade Statsig local override adapter and OpenTelemetry parent-based sampler.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
