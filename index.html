@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statsig + OTel DevTools</title>
+<style>
+:root{--bg:#11140f;--panel:#171d16;--ink:#f4f6ed;--muted:#b6c1ae;--line:#2f3b2a;--a:#b7e35f;--b:#7ed6ff;--c:#f3b35a}*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Lucida Sans,Verdana,sans-serif;background:radial-gradient(circle at 16% 12%,rgba(183,227,95,.22),transparent 28%),radial-gradient(circle at 86% 18%,rgba(126,214,255,.16),transparent 30%),linear-gradient(145deg,#11140f,#17201d 62%,#18140e);color:var(--ink)}main{width:min(1120px,calc(100vw - 32px));margin:auto;padding:48px 0}.kicker{color:var(--a);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:.12em}h1{font-size:clamp(38px,7vw,82px);line-height:.92;margin:0;letter-spacing:0}.lede{font-size:20px;line-height:1.55;color:#e8efdf;max-width:780px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}.btn{border:1px solid var(--line);border-radius:8px;padding:12px 16px;color:var(--ink);background:#20291e;text-decoration:none;font-weight:800}.btn.primary{background:var(--a);color:#111809}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card,.panel{border:1px solid var(--line);border-radius:8px;background:rgba(23,29,22,.88);padding:20px}.card h2,.panel h2{margin:0 0 10px;font-size:18px}.card p,.panel p{color:var(--muted);line-height:1.55}.cheats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.code{background:#0c100b;border:1px solid var(--line);border-radius:8px;padding:12px;color:#dff6a8;overflow:auto}@media(max-width:760px){main{padding:28px 0}.grid,.cheats{grid-template-columns:1fr}.lede{font-size:17px}}
+</style>
+</head>
+<body>
+<main>
+<p class="kicker">DaCameraGirl / Pre-Flight_Checklist</p>
+<h1>Statsig + OTel DevTools</h1>
+<p class="lede">Enterprise-grade feature flag and configuration override tooling for browser apps, with typed local overrides and OpenTelemetry-aware diagnostics.</p>
+<div class="actions"><a class="btn primary" href="https://github.com/DaCameraGirl/Pre-Flight_Checklist">Open source</a><a class="btn" href="https://github.com/DaCameraGirl/Pre-Flight_Checklist/tree/main/src">View source</a></div>
+<section class="grid"><article class="card"><h2>Inspect</h2><p>See gate and config overrides in a structured way during pre-flight review.</p></article><article class="card"><h2>Override</h2><p>Set local feature gates and configs without changing production flag state.</p></article><article class="card"><h2>Trace</h2><p>Keep diagnostics compatible with parent-based OpenTelemetry sampling.</p></article></section>
+<section class="panel"><h2>Console Cheatsheet</h2><div class="cheats"><div class="code">adapter.inspect()</div><div class="code">adapter.setGate('new_onboarding_flow', true)</div><div class="code">adapter.setConfig('api_timeout_ms', 500)</div><div class="code">adapter.clear()</div></div></section>
+</main>
+</body>
+</html>
